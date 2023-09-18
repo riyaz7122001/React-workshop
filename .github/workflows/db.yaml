@@ -32,8 +32,6 @@ jobs:
       with:
         context: .
         push: true   # Push the Docker image
-        tags: user/app:latest  # Tags for the Docker image
-
         # If you have a Dockerfile in a different directory, adjust the context accordingly
         # context: ./path/to/your/directory
 
